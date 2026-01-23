@@ -195,7 +195,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     }
 
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 59000); // 59 sec
+    const timeoutId = setTimeout(() => controller.abort(), 150000); // 59 sec
 
     try {
         const res = await fetch(
